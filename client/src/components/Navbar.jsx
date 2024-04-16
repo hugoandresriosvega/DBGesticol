@@ -20,10 +20,10 @@ function Navbar() {
                 welcome {user.username}
                 </li>
                  <li>
-                <Link to='/add-task'className="  rounded-full border border-black px-9 py-1 text-black"> + tareas</Link>
+                <Link to='/add-task'className="  rounded-full border border-black px-9 py-1 text-black text-2x1 font-bold"> + tareas</Link>
                  </li>
                  <li>
-                <Link to="/" className="  rounded-full border border-black px-9 py-1 text-black"onClick={()=> {
+                <Link to="/" className="  rounded-full border border-black px-9 py-1 text-black text-2x1 font-bold"onClick={()=> {
                     logout()}}>
                         salir</Link>
                  </li>
@@ -33,10 +33,10 @@ function Navbar() {
 
             <>
             <li>
-            <Link to='/login'className="  rounded-full border border-black px-9 py-1 text-black">ingresar</Link>
+            <Link to='/login'className="  rounded-full border border-black px-9 py-1 text-black text-2x1 font-bold">ingresar</Link>
              </li>
              <li>
-             <Link to='/register'className="  rounded-full border border-black px-9 py-1 text-black">registrarse</Link>
+             <Link to='/register'className="  rounded-full border border-black px-9 py-1 text-black text-2x1 font-bold">registrarse</Link>
             </li>
         
             </>
