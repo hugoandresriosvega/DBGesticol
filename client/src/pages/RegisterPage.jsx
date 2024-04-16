@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { useNavigate,Link } from "react-router-dom";
 import imagenPrincipal from"../imagenPrincipal.jpg";
 
-
+//registro de usuarios 
 
 function RegisterPage() {
     const {register,

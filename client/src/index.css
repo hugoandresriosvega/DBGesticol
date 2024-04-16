@@ -4,7 +4,10 @@
 
 
 body{
-    background: #158df0;
-    color: rgb(233, 221, 221)
+    background-image: url('fondoPP.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(15, 9, 9);
 }
 
