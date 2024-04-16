@@ -2,7 +2,7 @@ import { useForm } from "react-hook-form"
  import { useAuth } from "../context/authContext.jsx";
 import { useEffect } from "react";
 import { useNavigate,Link } from "react-router-dom";
-import imagenPrincipal from"../imagenPrincipal.jpg";
+import imagenPrincipal from"../imagenPrincipal.png";
 
 //registro de usuarios 
 

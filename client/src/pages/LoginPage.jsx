@@ -3,7 +3,7 @@
 import { useForm } from "react-hook-form"
 import { useAuth } from "../context/authContext"
 import { Link, useNavigate} from "react-router-dom";
-import imagenPrincipal from"../imagenPrincipal.jpg";
+import imagenPrincipal from"../imagenPrincipal.png";
 import { useEffect } from "react";
 
 function LoginPage() {

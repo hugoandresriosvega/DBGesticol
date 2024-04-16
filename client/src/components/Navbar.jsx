@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useAuth } from "../context/authContext";
-import imagenPrincipal from "../imagenPrincipal.jpg";
+import imagenPrincipal from "../imagenPrincipal.png";
 
 
 

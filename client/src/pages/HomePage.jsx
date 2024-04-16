@@ -1,6 +1,4 @@
 import React from 'react';
-import imagenPrincipal from "../imagenPrincipal.jpg";
-import fondo from "../fondo.jpg";
 import gesticol from "../gesticol.png";
 import salud from "../salud.png";
 import pension from "../pension.png";
