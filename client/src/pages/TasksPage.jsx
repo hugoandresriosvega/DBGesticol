@@ -11,7 +11,7 @@ function TasksPage() {
   if (tasks.length === 0 ) return (<h1> no tasks</h1>);
   
   return (
-  <div className="grid grid-cols-3 gap-2" >
+  <div className="grid sm:grid-cols-3 md:grid-cols- gap-2  text-white" >
     {tasks.map((task) => (
         <TaskCard task={task} key= {task._id} />
       ))}

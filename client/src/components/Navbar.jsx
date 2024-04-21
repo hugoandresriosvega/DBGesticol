@@ -3,17 +3,17 @@ import { useAuth } from "../context/authContext";
 import imagenPrincipal from "../imagenPrincipal.png";
 
 
-
 function Navbar() {
     const { isAuthenticated,logout,user } = useAuth();
 
   return (
-    <nav className=" bg-transparent my-3 flex justify-between py-10 px-10 rounded-lg ">
+    <nav className=" bg-transparent my-3 flex justify-between py-10 px-10 rounded-lg border border-black">
         
         <Link to ='/' >
         <div className="w-full h-20 object-cover rounded-md"> <img src={imagenPrincipal} className="w-full h-full object-cover rounded-md"/></div>
         </Link>
         <ul className="flex  gap-x-2 text-black">
+        
             {isAuthenticated ? (
                 <>
                 <li >
@@ -38,7 +38,8 @@ function Navbar() {
              <li>
              <Link to='/register'className="  rounded-full border border-black px-9 py-1 text-black text-2x1 font-bold">registrarse</Link>
             </li>
-        
+            
+
             </>
             )}
         </ul>
